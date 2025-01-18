@@ -1,0 +1,24 @@
+{
+  "name": "dice-box-threejs",
+  "version": "1.0.0",
+  "description": "Code available at https://github.com/3d-dice/dice-box-threejs",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@3d-dice/dice-box-threejs": "0.0.6",
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "3d dice"
+  ]
+}
